@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from '../Logo';
+import Logo from 'components/Logo';
 import Word from './Word';
 import Container from './Container';
-import H2 from '../H2';
+import H2 from 'components/H2';
 
 export default () => (
   <Container>

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import theme from 'theme';
 
-export default styled.p`
+export default styled.div`
+  background: ${theme.get('colors.background.light')};
   color: ${theme.get('colors.text.default')};
-  margin: 12px 0;
-  padding: 0;
+  padding: 16px;
+  margin: 0;
 `;

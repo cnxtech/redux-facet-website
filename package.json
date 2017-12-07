@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bandwidth/redux-facet": "^0.3.3",
-    "@bandwidth/redux-facet-alerts": "^0.3.4",
-    "@bandwidth/redux-facet-filters": "^0.3.0",
-    "@bandwidth/redux-facet-pagination": "^0.3.1",
+    "@bandwidth/redux-facet": "^1.0.0",
+    "@bandwidth/redux-facet-alerts": "^1.0.1",
+    "@bandwidth/redux-facet-filters": "^1.0.0",
+    "@bandwidth/redux-facet-pagination": "^1.0.0",
     "lodash": "^4.17.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
-    "styled-components": "^2.2.4"
+    "react-syntax-highlighter": "^6.0.4",
+    "redux": "^3.7.2",
+    "styled-components": "^2.2.4",
+    "tinycolor2": "^1.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

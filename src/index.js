@@ -13,8 +13,8 @@ injectGlobal`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', Arial, sans-serif;
-    background: ${theme.get('colors.background.default')};
-    color: ${theme.get('colors.text.default')};
+    background: ${theme.colors.background.default};
+    color: ${theme.colors.text.default};
     line-height: 1.5;
   }
 `;

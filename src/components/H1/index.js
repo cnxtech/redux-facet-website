@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import theme from '../../theme';
+import theme from 'theme';
 
 export default styled.h1`
   font-family: 'Work Sans', 'Open Sans', Arial, sans-serif;

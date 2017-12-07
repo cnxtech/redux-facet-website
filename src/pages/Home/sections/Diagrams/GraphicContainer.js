@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  padding: 5vw;
+  & > svg {
+    max-height: 100%;
+    margin: auto;
+  }
 `;

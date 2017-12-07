@@ -1,5 +1,5 @@
 import React from 'react';
-import Triangle from '../shapes/Triangle';
+import Triangle from 'components/shapes/Triangle';
 import { withTheme } from 'styled-components';
 
 export default withTheme(({ theme, size = 120 }) => (
