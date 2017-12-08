@@ -2,7 +2,7 @@
   "name": "redux-facet-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dev.bandwidth.com/redux-facet-website",
+  "homepage": "http://dev.bandwidth.com/redux-facet-website",
   "dependencies": {
     "@bandwidth/redux-facet": "^1.0.0",
     "@bandwidth/redux-facet-alerts": "^1.0.1",
