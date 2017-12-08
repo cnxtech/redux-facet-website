@@ -5,7 +5,7 @@ export default styled.div`
   display: flex;
   flex-direction: ${({ reverse }) => reverse ? 'row-reverse' : 'row'};
   margin: auto;
-  width: 80%;
+  width: 100%;
   height: 25vh;
 
   & > * {
