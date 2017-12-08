@@ -6,8 +6,7 @@ import P from 'components/P';
 import Code from 'components/Code';
 
 const code = `import { connect } from 'react-redux';
-import { compose } from 'recompose';
-import facet from '@bandwidth/redux-facet';
+import facet, { compose } from '@bandwidth/redux-facet';
 
 /* define mapStateToProps, mapDispatchToProps */
 
