@@ -29,9 +29,5 @@ export default () => (
         Back in the container, add the enhancers for your behaviors, which will provide
         props to your component.
       </P>
-      <P>
-        The behaviors are now ready to listen to actions dispatched from your facet-powered container.
-        The reducers you've included won't listen to actions from any other source.
-      </P>
   </Step>
 );

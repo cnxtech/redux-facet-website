@@ -19,9 +19,9 @@ export default withTheme(({ theme }) => (
       <Triangle
         fill={theme.colors.brand[1]}
         stroke="none"
-        size={5}
-        x={7}
-        y={5}
+        size={3}
+        x={9}
+        y={3}
       />
     </svg>
   </GraphicContainer>

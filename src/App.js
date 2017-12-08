@@ -7,6 +7,7 @@ import Home from 'pages/Home';
 import Use from 'pages/Use';
 import Gallery from 'pages/Gallery';
 import Nav from 'components/Nav';
+import ScrollToTop from 'components/ScrollToTop';
 
 class App extends Component {
   render() {
@@ -15,11 +16,13 @@ class App extends Component {
         <Router>
           <AppContainer className="App">
             <Nav />
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/use" component={Use} />
-              <Route path="/gallery" component={Gallery} />
-            </Switch>
+            <ScrollToTop>
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/use" component={Use} />
+                <Route path="/gallery" component={Gallery} />
+              </Switch>
+            </ScrollToTop>
           </AppContainer>
         </Router>
       </ThemeProvider>

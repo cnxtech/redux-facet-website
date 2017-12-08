@@ -3,7 +3,6 @@ import React from 'react';
 export default ({ size, fill, stroke, x, y }) => (
   <svg
     width={size}
-    preserveAspectRatio
     viewBox="0 0 10 16"
     x={x}
     y={y}

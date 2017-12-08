@@ -8,7 +8,7 @@ export default () => (
   <Row reverse>
     <Graphic />
     <div>
-      <H3>Facets are compose-able</H3>
+      <H3>Facets are composable</H3>
       <P>
         Mix and match behaviors to enhance your containers with complex computed data and interactions
         using only a few lines of code.

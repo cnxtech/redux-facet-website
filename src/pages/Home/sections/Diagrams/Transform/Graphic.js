@@ -22,7 +22,7 @@ export default withTheme(({ theme }) => (
         x2="12"
         y2="7"
         strokeDasharray="3, 3"
-        stroke={theme.colors.text.default}
+        stroke={theme.colors.background.dim}
         strokeWidth="1"
         vectorEffect="non-scaling-stroke"
       />

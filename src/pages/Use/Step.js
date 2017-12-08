@@ -1,5 +1,3 @@
-import styled from 'styled-components';
+import Section from 'components/Section';
 
-export default styled.div`
-
-`;
+export default Section;

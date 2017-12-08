@@ -7,7 +7,7 @@ import Code from 'components/Code';
 import Section from 'components/Section';
 
 export default () => (
-  <Section>
+  <Section style={{ gridArea: 'why' }}>
     <H1>Why use facets?</H1>
     <H2>Redux is great, but...</H2>
     <div>
@@ -34,5 +34,6 @@ export default () => (
         operations, you can tie the results back to the component which triggered them.
       </P>
     </div>
+
   </Section>
 );

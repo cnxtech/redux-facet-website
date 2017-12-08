@@ -11,7 +11,7 @@ const code = `const View = ({ currentPage, pageSize, pageCount, nextPage, previo
     </div>
     <div className="pagination">
       <a onClick={previousPage}>Previous</a>
-      <span>Page: {currentPage} / {pageCount}</span>
+      <span>Page: {currentPage + 1} / {pageCount}</span>
       <a onClick={nextPage}>Next</a>
     </div>
   </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import Bar from './Bar';
-import Link from './Link';
+import A from 'components/A';
 
 export default () => (
   <Bar>
-    <Link to="/">Home</Link>
-    <Link to="/use">Use</Link>
-    <Link to="/gallery">Gallery</Link>
+    <A.Internal to="/">Home</A.Internal>
+    <A.Internal to="/use">Get started</A.Internal>
+    <A.Internal to="/gallery">Gallery</A.Internal>
   </Bar>
 );

@@ -3,6 +3,7 @@ import Step from '../Step';
 import H3 from 'components/H3';
 import CodeBlock from 'components/CodeBlock';
 import P from 'components/P';
+import Code from 'components/Code';
 
 const code = `import { connect } from 'react-redux';
 import { compose } from 'recompose';
@@ -23,8 +24,11 @@ export default () => (
         {code}
       </CodeBlock>
       <P>
+        Pass your <Code>mapDispatchToProps</Code> function to <Code>facet</Code> instead of <Code>connect</Code>.
+      </P>
+      <P>
         Now all actions created by our component will be automatically tagged with the facet name we provided.
-        If that's all you're looking for, you're done!
+        This won't disrupt any existing code which relies on those actions.
       </P>
   </Step>
 );

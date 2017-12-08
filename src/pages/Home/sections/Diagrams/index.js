@@ -7,7 +7,7 @@ import Repeat from './Repeat';
 import Compose from './Compose';
 
 export default () => (
-  <Section big>
+  <Section big style={{ gridArea: 'diagrams' }}>
     <Transform />
     <Augment />
     <Repeat />
