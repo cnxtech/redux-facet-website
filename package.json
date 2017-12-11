@@ -5,7 +5,7 @@
   "homepage": "http://dev.bandwidth.com/redux-facet-website",
   "dependencies": {
     "@bandwidth/redux-facet": "^1.0.0",
-    "@bandwidth/redux-facet-alerts": "^1.0.1",
+    "@bandwidth/redux-facet-alerts": "^1.0.2",
     "@bandwidth/redux-facet-filters": "^1.1.1",
     "@bandwidth/redux-facet-pagination": "^1.0.0",
     "lodash": "^4.17.4",
