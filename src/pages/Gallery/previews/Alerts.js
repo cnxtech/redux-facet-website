@@ -51,10 +51,10 @@ const Alerts = ({ alerts, dismissAlert, dismissAll }) => alerts.length > 0 && (
 );
 
 // a generic view component which includes alert rendering
-const View = ({ alerts, createAlert, dismissAlert, dismissAll, children, facetName }) => (
+const View = ({ alerts, createAlert, dismissAlert, dismissAllAlerts, children, facetName }) => (
   <div className="View">
     <h3>{facetName} facet</h3>
-    <Alerts alerts={alerts} dismissAlert={dismissAlert} dismissAll={dismissAll} />
+    <Alerts alerts={alerts} dismissAlert={dismissAlert} dismissAll={dismissAllAlerts} />
     <button
       className="View--createAlert"
       onClick={() => createAlert(`Hello from ${facetName}!`)}

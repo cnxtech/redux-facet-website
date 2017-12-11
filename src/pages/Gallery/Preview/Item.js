@@ -20,6 +20,7 @@ export default styled.div`
   }
 
   & > ${Styles} {
+    flex: 0 1 auto;
     overflow-y: auto;
   }
 `;
