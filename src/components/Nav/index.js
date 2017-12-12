@@ -7,5 +7,6 @@ export default () => (
     <A.Internal to="/">Home</A.Internal>
     <A.Internal to="/use">Get started</A.Internal>
     <A.Internal to="/gallery">Gallery</A.Internal>
+    <A href="https://github.com/bandwidth/redux-facet">Github</A>
   </Bar>
 );
