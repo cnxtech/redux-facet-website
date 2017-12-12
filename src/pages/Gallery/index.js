@@ -22,11 +22,17 @@ import ComposePage from './details/Compose';
 
 export default () => (
   <Page>
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <H1>Behaviors available for facets</H1>
       <P>
         Browse the <A href="https://github.com/topics/redux-facet-behavior">redux-facet-behavior</A>
         {' topic on GitHub for more.'}
+      </P>
+      <P>
+        Looking for more examples and use cases? Check out the{' '}
+        <A href="https://github.com/Bandwidth/redux-facet/wiki/Recipes">
+          recipes
+        </A> in the documentation.
       </P>
     </div>
     <Container>

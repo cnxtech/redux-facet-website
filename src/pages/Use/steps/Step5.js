@@ -17,6 +17,13 @@ export default () => (
       <Button>Read the docs</Button>
     </a>
     <P>
+      If you're integrating facets into an existing Redux codebase, you may want to read
+      our guide on preparing and synchronizing your application data in a facet-driven world.
+    </P>
+    <a href="https://github.com/Bandwidth/redux-facet/wiki/Preparing-your-Data-for-Facets">
+      <Button>Read the guide</Button>
+    </a>
+    <P>
       Beyond just the base library, there are pre-built behavior libraries which can
       instantly add value to your application.
     </P>
